@@ -1,5 +1,5 @@
 # leetcode
-> Possible answers to a variety of [LeetCode](https://leetcode.com/) problems, written using JavaScript.
+> Possible answers to a variety of [LeetCode](https://leetcode.com/) problems, written in JavaScript.
 
 All answers in this repository are accepted by LeetCode. However, by no means do I claim the code is optimal in terms of time and space complexity. All
 
