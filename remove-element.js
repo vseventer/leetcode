@@ -13,14 +13,14 @@ var removeElement = function(nums, val) {
   // point of this exercise.
 
   // Also, in case the problem is unclear, it is OK to leave the removed values
-  // in the array, as long as their indixes > new length.
+  // in the array, as long as their indices > new length.
 
   // Keep two pointers.
   let start = 0;
   let end = nums.length - 1;
 
   // Walk through nums.
-  while(start < end) {
+  while(start <= end) {
     // If the number is to be removed, overwrite it with the last (non-removed)
     // num.
     if(nums[start] === val) {

@@ -34,3 +34,11 @@ var reverse = function(x) {
   // Boundary check of the result.
   return overflows(result) ? 0 : result;
 };
+
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function(x) {
+  return x >= 0 && x === reverse(x);
+};
